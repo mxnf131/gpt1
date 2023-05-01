@@ -134,11 +134,11 @@ export default (props: Props) => {
           .render(props.message.content)
           .replace(
             /Vercel/g,
-            `<a href="https://gpt3.mxnf.store" style="border-bottom:0">${vercel}</a>`
+            `<a href="https://wwat.lanzoul.com/ifHwu0tvxs7e" style="border-bottom:0">${vercel}</a>`
           )
           .replace(
             /OpenAI/g,
-            `<a href="https://gpt3.mxnf.store" style="border-bottom:0">${openai}</a>`
+            `<a href="https://pd.qq.com/s/b2jib2csn" style="border-bottom:0">${openai}</a>`
           )}
       />
       <MessageAction
