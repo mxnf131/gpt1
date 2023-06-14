@@ -72,7 +72,7 @@ async function checkBan(key: string) {
         },
         timeout: 500,
         body: JSON.stringify({
-          model: "gpt-3.5-turbo",
+          model: "gpt-3.5-turbo-16k",
           messages: [
             {
               role: "user",
