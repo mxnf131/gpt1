@@ -138,10 +138,10 @@ export const post: APIRoute = async context => {
         timeout: 10000,
         method: "POST",
         body: JSON.stringify({
-          model: model || "gpt-3.5-turbo",
+          model: model || "gpt-3.5-turbo-16k",
           messages: messages.map(k => ({ role: k.role, content: k.content })),
           temperature,
-          // max_tokens: 4096 - tokens,
+          // max_tokens: 16000 - tokens,
           stream: true
         })
       }
